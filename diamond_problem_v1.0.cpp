@@ -108,10 +108,10 @@ int main (int argc, char *argv[]){
 
     CWorker *pointer_job_position;
     pointer_job_position = &worker;
-    worker.what_doing();
+    pointer_job_position->what_doing();
 
     pointer_job_position = &receptionist;
-    receptionist.what_doing();
+    pointer_job_position->what_doing();
 
     pointer_job_position = &secretary;
     pointer_job_position->what_doing();
