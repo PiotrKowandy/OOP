@@ -5,7 +5,7 @@ class CWorker{
 public:
     CWorker();
     CWorker(std::string first_name, std::string last_name);
-    void what_doing();
+    virtual void what_doing();
     void what_name();
     virtual ~CWorker();
 
